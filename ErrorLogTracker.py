@@ -1,7 +1,6 @@
 # Çalışmamızda bir uygulamada alınan hataların "LOG KAYITLARINI" kayıt edeceğiz.
 # Ayrıca şifreleyerek log tutacağız.
 
-
 from socket import gethostname, gethostbyname
 from datetime import datetime
 from Crypto.Cipher import AES
@@ -48,7 +47,7 @@ except IOError as err:
 
 
 
-# Kodun Yapısı ve Mantığı
+# Kodun Yapısı ve Mantığı;
 
 #  İlk try bloğu:
 # log.txt dosyasını yazma modunda açar ve başlangıç mesajını yazar.
