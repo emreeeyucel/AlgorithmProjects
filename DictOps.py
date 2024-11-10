@@ -21,7 +21,7 @@ try:
                 print(f'Stok Bilgisi Kaydedildi.')
             case 'update':
                 product_id = input('Güncellenecek ID Bilgisi Gİriniz.')
-                if product_id in products:                                              
+                if product_id in products:
                     name = input('Name : ')
                     price = float(input('Stock : '))
                     stock = int(input('Price : '))
