@@ -42,3 +42,6 @@ try:
                 print('Yanlış Giriş Tuşlaması')
 except ValueError as err:
     print(f'Stock, Price Alanına Sayısal Değer Giriniz.')
+
+
+
