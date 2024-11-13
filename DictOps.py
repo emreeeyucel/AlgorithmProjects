@@ -8,7 +8,7 @@ try:
     while True:
         proces = input('İşlem Türü Giriniz (exit, create, update, delete, list) : ')
 
-        match proces:
+        match proces.lower():
             case 'exit':
                 print('Uygulama Kapatılıyor.')
                 break
